@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Task Manager</title>
+	<script src="TaskManager/Task.js"></script>
+</head>
+<body>
+<ul style="list-style: none;">
+	
+</ul>
+<script>
+	var list = document.querySelector("ul");
+	for (var i = 0; i < 10; i++) {
+		var listItem = document.createElement("li");
+		new Task(listItem, "Task number " + i).;
+		list.appendChild(listItem);
+	}
+	//var task = new Task(document.querySelector("div"), "A sample task.");
+</script>
+</body>
+</html>
